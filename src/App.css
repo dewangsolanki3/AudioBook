@@ -1,0 +1,68 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.story1{
+  height:100vh;
+  width:100vw;
+  background-image: url('RichDadWallPaper.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box{
+  height: 600px;
+  width: 450px;
+  border: 30px solid black;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+  background-image: url('1.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  border-radius: 5%;
+}
+.sm-box{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  padding: 20px 0px;
+  background-color: black;
+}
+
+progress{
+  width: 28em;
+  background-color:red;
+}
+
+
+
+.play,.pause{
+
+  border: 1px solid #ff0000;
+  border-radius: 50%;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  margin: 5px;
+  position: relative;
+  left: 30%;
+  background-color: black;
+}
+
+.play:active{
+  transform: scale(0.8, 0.8);
+
+}
+
+.pause:active{
+  transform: scale(0.8, 0.8);
+}
+
+
+svg{
+  height: 5em;
+  width: 5em;
+  color: #ff0000;
+}
